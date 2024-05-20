@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Child Rights Education Platform</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+           
+            Child Rights Platform
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Learning Modules</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Community</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Support</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Profile</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero text-center text-white d-flex justify-content-center align-items-center">
+        <div>
+            <h1>Learn About Your Rights</h1>
+            <p>Empowering children through education</p>
+            <a href="#" class="btn btn-primary">Start Learning</a>
+        </div>
+    </section>
+
+    <!-- Featured Modules -->
+    <section class="container my-5">
+        <h2 class="text-center">Featured Learning Modules</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <img src="https://via.placeholder.com/150" class="card-img-top" alt="Module 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Module 1: Your Basic Rights</h5>
+                        <p class="card-text">An introduction to basic child rights.</p>
+                        <a href="#" class="btn btn-primary" onclick="loadModule(1)">Start Module</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <img src="https://via.placeholder.com/150" class="card-img-top" alt="Module 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Module 2: Education Rights</h5>
+                        <p class="card-text">Learn about your rights to education.</p>
+                        <a href="#" class="btn btn-primary" onclick="loadModule(2)">Start Module</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <img src="https://via.placeholder.com/150" class="card-img-top" alt="Module 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Module 3: Safety and Protection</h5>
+                        <p class="card-text">Understand your rights to safety and protection.</p>
+                        <a href="#" class="btn btn-primary" onclick="loadModule(3)">Start Module</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Community Section -->
+    <section class="container my-5">
+        <h2 class="text-center">Community Discussions</h2>
+        <div id="community-discussions" class="list-group">
+            <!-- Community discussions will be dynamically loaded here -->
+        </div>
+    </section>
+
+    <section id="child-rights">
+        <h2>Child Rights</h2>
+        <p>
+          Every child has the right to:
+        </p>
+        <ul>
+          <li>Survival and development</li>
+          <li>Protection from harm and abuse</li>
+          <li>Participation in family, cultural, and social life</li>
+          <li>Access to education and healthcare</li>
+          <li>Freedom of expression and thought</li>
+          <li>Privacy and confidentiality</li>
+          <li>Protection from discrimination</li>
+          <li>Access to information</li>
+          <li>Respect for their views and opinions</li>
+        </ul>
+      </section>
+
+
+    <!-- Footer -->
+    <footer class="bg-light text-center text-lg-start">
+        <div class="container p-4">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Child Rights Platform</h5>
+                    <p>Empowering children through education and awareness.</p>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Links</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="#" class="text-dark">Home</a></li>
+                        <li><a href="#" class="text-dark">Learning Modules</a></li>
+                        <li><a href="#" class="text-dark">Community</a></li>
+                        <li><a href="#" class="text-dark">Support</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Contact</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-dark">Contact Us</a></li>
+                        <li><a href="#" class="text-dark">Privacy Policy</a></li>
+                        <li><a href="#" class="text-dark">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="text-center p-3 bg-dark text-white">
+            © 2024 Child Rights Platform
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="code.js"></script>
+</body>
+</html>

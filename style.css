@@ -1,0 +1,60 @@
+/* Custom Styles */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.hero {
+    height: 60vh;
+    background: url('assets/images/hero-bg.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+.card img {
+    height: 150px;
+    object-fit: cover;
+}
+
+footer {
+    margin-top: 2rem;
+}
+
+#child-rights {
+    background-color: #f4f4f4;
+    padding: 2rem;
+    margin: 1rem;
+  }
+  
+  #child-rights h2 {
+    margin: 0 0 1rem;
+  }
+  
+  #child-rights p {
+    margin: 0 0 1rem;
+  }
+  
+  #child-rights ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #child-rights ul li {
+    margin: 0 0 1rem;
+  }
