@@ -1,1 +1,1 @@
-# hild-Rights-Education-Platform
+# child-Rights-Education-Platform
